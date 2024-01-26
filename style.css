@@ -1,4 +1,39 @@
 html {
     height: 100%;
     width: 100%;
+    background-color: #3d9c66;
+    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+  }
+
+  p, h4 {
+    color: blue;
+    width: 300px;
+    border: 1px solid red;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px greenyellow;
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #6cec77;
+    padding: 0 20px 20px 20px;
+    border: 5px solid gray;
+    margin-top: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
   }
